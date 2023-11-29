@@ -1,0 +1,45 @@
+<button id="qwerty" onclick="" style="display: 
+flex;width: 415.2px;
+height: 405.2px;font-size: 100;
+align-items: center;
+justify-content: center;
+margin-left: 530;
+margin-left: 530;
+margin-top: 75;
+" type="button" 
+><img src="img/치ㅑ차!.png"></button>
+<p id="ytrewq" style=
+"display:flex;
+font-size: 100;
+margin-top: 20px;
+margin-bottom: 0px;
+justify-content: center;">
+0</p>
+
+
+<script>
+   const bt = document.getElementById("qwerty"); 
+
+
+function mov() {
+  bt.style.transform = 'scale(1.1)';
+  
+}
+function mou() {
+  bt.style.transform = 'scale(1)';
+
+}
+   bt.addEventListener('mouseover', mov)
+   bt.addEventListener('mouseout', mou)
+  
+   var su = 0
+function fasd() {
+  su += 1
+  document.getElementById("ytrewq").innerText = su
+}
+
+
+   bt.addEventListener('click', fasd)
+
+
+</script>
